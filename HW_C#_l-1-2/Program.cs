@@ -6,24 +6,24 @@
 // a = -9 b = -3 -> max = -3
 
 Console.Write("Введите первое число ");
-int num1 = Convert.ToInt32(Console.ReadLine());
+int a = Convert.ToInt32(Console.ReadLine());
 
 Console.Write("Введите второе число ");
-int num2 = Convert.ToInt32(Console.ReadLine());
+int b = Convert.ToInt32(Console.ReadLine());
 
 int max = 0;
 int min = 0;
 
-if (num1 > num2) 
+if (a > b) 
 {
-    max = num1;
-    min = num2;
+    max = a;
+    min = b;
 }
 
 else 
 {
-    max = num2;
-    min = num1;
+    max = b;
+    min = a;
 }
 
-Console.WriteLine($"{max} больше {min}");
+Console.WriteLine($"a = {a}; b = {b} -> max = {max}");
