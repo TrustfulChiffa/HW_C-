@@ -5,8 +5,12 @@
 // -3 -> нет
 // 7 -> нет
 
+Console.Clear();
+
 Console.Write("Введите число ");
 int num = Convert.ToInt32(Console.ReadLine());
+
+Console.Clear();
 
 if(num % 2 == 0) 
 Console.WriteLine($"{num} -> да");
